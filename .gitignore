@@ -1,7 +1,4 @@
 *
 */
-# exclude everything
-DataModel/*
-Models/*
-Pages/*
+
 !.gitignore
