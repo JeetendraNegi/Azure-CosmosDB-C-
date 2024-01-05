@@ -1,0 +1,41 @@
+﻿@page "{id:Guid}"
+@model CosmosDBDemo.Pages.editAppModel
+@using CosmosDBDemo.Models;
+@{
+}
+
+<h1>Edit App</h1>
+<br />
+<hr />
+
+
+<form method="post">
+    <input type="hidden" asp-for="apps.id" />
+    <input type="hidden" asp-for="apps.feedback.feedbackID" />
+    <div class="form-group">
+        <label for="appName">App Name</label>
+        <input type="text" class="form-control" asp-for="apps.AppName" id="appName">
+    </div>
+    <div class="form-group">
+        <label for="version">Version</label>
+        <input type="text" class="form-control" asp-for="apps.Version" id="version">
+    </div>
+    <div class="form-group">
+        <label for="org">Organization</label>
+        <input type="text" class="form-control" asp-for="apps.Org" id="org">
+    </div>
+    <div class="form-group">
+        <label for="date">Date</label>
+        <input type="date" class="form-control" asp-for="apps.Date" id="date">
+    </div>
+    <div class="form-group">
+        <label for="rating">Rating</label>
+        <input type="number" class="form-control" asp-for="apps.feedback.rating" id="rating">
+    </div>
+    <div class="form-group">
+        <label for="review">Review</label>
+        <input type="text" class="form-control" asp-for="apps.feedback.review" id="review">
+    </div>
+    <button type="submit" class="btn btn-success"><i class="glyphicon glyphicon-plus"></i>Save Record</button>
+    <a href="/AppStore" class="btn btn-info">Back to List</a>
+</form>

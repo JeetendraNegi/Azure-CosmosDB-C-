@@ -1,0 +1,61 @@
+﻿@page
+@model CosmosDBDemo.Pages.AppStoreModel
+@using CosmosDBDemo.Models
+@{
+    List<Apps> apps = ViewData["Apps"] as List<Apps>;
+    int sn = 0;
+}
+
+<h1>Apps List</h1>
+<hr />
+
+<a href="/addNewApp" class="btn btn-info">Add New App</a>
+<br /> <br />
+
+<table class="table table-bordered table-striped" id="tblapps">
+    <thead>
+        <tr style="background-color:black; color:white">
+            <th>S.No</th>
+            <th>App Name</th>
+            <th>Version</th>
+            <th>Date</th>
+            <th>Organization</th>
+            <th>Feedback</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in apps)
+        {
+            <tr>
+                <td>@(++sn)</td>
+                <td>@item.AppName</td>
+                <td>@item.Version</td>
+                <td>@item.Date</td>
+                <td>@item.Org</td>
+                <td>
+                    <p>@item.feedback.rating</p>
+                    <p>@item.feedback.review</p>
+                </td>
+                <td>
+                    <a href="/editApp/@item.id"> Edit
+                        <i class="fa fa-pencil-square" aria-hidden="true"></i>
+                    </a>
+                    <form method="post">
+                        <button type="submit" asp-page-handler="Delete" asp-route-id="@item.id"
+                                onclick="return confirm('Are you sure to delete this App?');">
+                            Delete
+                            <i class="glyphicon glyphicon-remove"></i>
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    $(document).ready(function () {
+        $('#tblapps').DataTable();
+    });
+</script>

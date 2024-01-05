@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAKDNuDOm+xEOjV6K2aO7Z8wAAAAACAAAAAAADZgAAwAAAABAAAAD8y0rxBov2Gj6eC7e+JUDSAAAAAASAAACgAAAAEAAAAFFIWhkxMBdQBi4HRO1TXYCAAAAAuzj3rgoZoESPhn+Kv9CkvsSg3oVjGImdKm3fOVx5W0o7B/Z6yFV6jbYZFbqMwwolg63AguNq2uXCILIAxX32iKL/HM20/AUNwIJNYW+3SbFtln3pxPRMs1JGzq6zFI0Fawh6R5h3NEqVyzSIGZanCNnhh6VijskzOzEz8EHo11IUAAAAz4/4AOEvzNsvlK5beBraK7x/hgA=</EncryptedPassword>
+    <_PublishTargetUrl>ftps://waws-prod-ty1-055.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
+    <History>True|2021-07-02T17:10:34.9828818Z;False|2021-07-02T22:31:32.6071688+05:30;False|2021-07-02T22:29:04.5194317+05:30;True|2021-07-02T22:19:44.0619067+05:30;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>07/02/2021 08:10:10</publishTime>
+    </File>
+    <File Include="Azure.Core.dll">
+      <publishTime>07/02/2020 21:19:54</publishTime>
+    </File>
+    <File Include="Cosmos.CRTCompat.dll">
+      <publishTime>05/25/2021 18:20:56</publishTime>
+    </File>
+    <File Include="CosmosDBDemo.deps.json">
+      <publishTime>07/02/2021 22:35:33</publishTime>
+    </File>
+    <File Include="CosmosDBDemo.dll">
+      <publishTime>07/02/2021 22:35:32</publishTime>
+    </File>
+    <File Include="CosmosDBDemo.exe">
+      <publishTime>07/02/2021 22:35:33</publishTime>
+    </File>
+    <File Include="CosmosDBDemo.pdb">
+      <publishTime>07/02/2021 22:35:32</publishTime>
+    </File>
+    <File Include="CosmosDBDemo.runtimeconfig.json">
+      <publishTime>07/02/2021 22:15:01</publishTime>
+    </File>
+    <File Include="CosmosDBDemo.Views.dll">
+      <publishTime>07/02/2021 22:35:33</publishTime>
+    </File>
+    <File Include="CosmosDBDemo.Views.pdb">
+      <publishTime>07/02/2021 22:35:33</publishTime>
+    </File>
+    <File Include="Microsoft.Azure.Cosmos.Client.dll">
+      <publishTime>07/01/2021 14:03:30</publishTime>
+    </File>
+    <File Include="Microsoft.Azure.Cosmos.Core.dll">
+      <publishTime>03/30/2021 18:16:10</publishTime>
+    </File>
+    <File Include="Microsoft.Azure.Cosmos.Direct.dll">
+      <publishTime>05/25/2021 18:22:16</publishTime>
+    </File>
+    <File Include="Microsoft.Azure.Cosmos.Serialization.HybridRow.dll">
+      <publishTime>03/30/2021 18:16:10</publishTime>
+    </File>
+    <File Include="Microsoft.Azure.Cosmos.ServiceInterop.dll">
+      <publishTime>05/25/2021 18:20:56</publishTime>
+    </File>
+    <File Include="Microsoft.Bcl.AsyncInterfaces.dll">
+      <publishTime>09/13/2019 02:28:44</publishTime>
+    </File>
+    <File Include="Microsoft.Bcl.HashCode.dll">
+      <publishTime>11/15/2019 08:38:50</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>04/02/2017 17:46:32</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/Cosmos.CRTCompat.dll">
+      <publishTime>05/25/2021 18:20:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/Microsoft.Azure.Cosmos.ServiceInterop.dll">
+      <publishTime>05/25/2021 18:20:56</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>05/15/2018 13:29:44</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>05/15/2018 13:29:38</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>05/15/2018 13:29:44</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>07/02/2021 22:35:40</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.css">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="wwwroot/font-awesome/css/font-awesome.css">
+      <publishTime>08/22/2019 23:05:30</publishTime>
+    </File>
+    <File Include="wwwroot/font-awesome/css/font-awesome.min.css">
+      <publishTime>08/22/2019 23:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>08/22/2019 23:05:30</publishTime>
+    </File>
+    <File Include="wwwroot/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>08/22/2019 23:05:30</publishTime>
+    </File>
+    <File Include="wwwroot/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>08/22/2019 23:05:30</publishTime>
+    </File>
+    <File Include="wwwroot/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>08/22/2019 23:05:30</publishTime>
+    </File>
+    <File Include="wwwroot/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>08/22/2019 23:05:30</publishTime>
+    </File>
+    <File Include="wwwroot/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>08/22/2019 23:05:30</publishTime>
+    </File>
+    <File Include="wwwroot/font-awesome/HELP-US-OUT.txt">
+      <publishTime>08/22/2019 23:05:30</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.js">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css.map">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js.map">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/LICENSE">
+      <publishTime>07/02/2021 08:05:02</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
+      <publishTime>07/02/2021 08:05:03</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
+      <publishTime>07/02/2021 08:05:03</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt">
+      <publishTime>07/02/2021 08:05:03</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.js">
+      <publishTime>07/02/2021 08:05:03</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.min.js">
+      <publishTime>07/02/2021 08:05:03</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.js">
+      <publishTime>07/02/2021 08:05:03</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.min.js">
+      <publishTime>07/02/2021 08:05:03</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/LICENSE.md">
+      <publishTime>07/02/2021 08:05:03</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.js">
+      <publishTime>07/02/2021 08:05:03</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.js">
+      <publishTime>07/02/2021 08:05:03</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.map">
+      <publishTime>07/02/2021 08:05:03</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/LICENSE.txt">
+      <publishTime>07/02/2021 08:05:03</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
